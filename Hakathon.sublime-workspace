@@ -1,0 +1,1315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ba",
+				"background:   (property)"
+			],
+			[
+				"inlin",
+				"inline-table  (value)"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ove",
+				"overflow-y:   (property)"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"na",
+				"nativeName"
+			],
+			[
+				"ng",
+				"data-ng-model"
+			],
+			[
+				"p",
+				"parameters"
+			],
+			[
+				"Image",
+				"image-filters"
+			],
+			[
+				"c",
+				"canvasHight"
+			],
+			[
+				"C",
+				"canvas"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"shell",
+				"shell_cmd"
+			],
+			[
+				"filterTo",
+				"filterToString"
+			],
+			[
+				"ima",
+				"imageFilterAttributeName"
+			],
+			[
+				"function",
+				"functionParametersString"
+			],
+			[
+				"css",
+				"cssFunctionParameterSeparatorRegex"
+			],
+			[
+				"get",
+				"getcwd"
+			],
+			[
+				"lorem",
+				"lorem	Lorem ipsum"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 533 files for \"House of Life Update\" (case sensitive)\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\admin.py:\n   74      <meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n   75  \n   76:     <title>House of Life Update Manager</title>\n   77  \n   78      <!-- CSS: implied media=\"all\" -->\n   ..\n   82      <div id=\"container\">\n   83          <header>\n   84:             <h1>House of Life Update Manager</h1>\n   85              <p>Copyright &copy; 2011, House of Life Property ltd. All rights reserved.<br />\n   86                 Copyright &copy; 2011, Crystalnix &lt;vgachkaylo@crystalnix.com&gt;</p>\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\mac_edit.py:\n   29  <meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n   30  \n   31: <title>House of Life Update Manager</title>\n   32  \n   33  <!-- CSS: implied media=\"all\" -->\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\new_delta.py:\n   33      <meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n   34  \n   35:     <title>House of Life Update Manager</title>\n   36  \n   37      <!-- CSS: implied media=\"all\" -->\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\new_full.py:\n   33      <meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n   34  \n   35:     <title>House of Life Update Manager</title>\n   36  \n   37      <!-- CSS: implied media=\"all\" -->\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\new_mac_full.py:\n   36      <meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n   37  \n   38:     <title>House of Life Update Manager</title>\n   39  \n   40      <!-- CSS: implied media=\"all\" -->\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\server.tac:\n   68  \n   69  portal = Portal(PublicHTMLRealm(), [FilePasswordDB('httpd.password')])\n   70: credentialFactory = DigestCredentialFactory(\"md5\", \"House of Life Updates\")\n   71  admin = HTTPAuthSessionWrapper(portal, [credentialFactory])\n   72  err.putChild('admin', admin)\n   ..\n  109  if os.name == 'posix' and os.getuid() == 0:\n  110    # run under user 'nobody'\n  111:   application = service.Application('House of Life Update Portal', uid=Config.uid, gid=Config.gid)\n  112  else:\n  113:   application = service.Application('House of Life Update Portal')\n  114  \n  115  httpService = internet.TCPServer(Config.httpPort, httpSite, interface=Config.domainName)\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\switch.py:\n   39  <head>\n   40      <meta http-equiv=\"refresh\" content=\"5;url=/service/admin\">\n   41:     <title>House of Life Update Manager</title>\n   42  </head>\n   43  <body>\n   ..\n   49  <html>\n   50  <head>\n   51:     <title>House of Life Update Manager</title>\n   52      <script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js\"></script>\n   53      <script type=\"text/javascript\">\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\uncensor_manage.py:\n   19  <meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n   20  \n   21: <title>House of Life Update Manager</title>\n   22  \n   23  <!-- CSS: implied media=\"all\" -->\n\nC:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master\\uncensor_proxy_manage.py:\n   20  <meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\">\n   21  \n   22: <title>House of Life Update Manager</title>\n   23  \n   24  <!-- CSS: implied media=\"all\" -->\n\n13 matches across 9 files\n",
+			"settings":
+			{
+				"buffer_size": 3743,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/run.bat",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/cert/README",
+			"settings":
+			{
+				"buffer_size": 50,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/db_helper.py",
+			"settings":
+			{
+				"buffer_size": 8765,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Grunt/Grunt.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"grun",
+				"Grunt"
+			],
+			[
+				"yads",
+				"Yeoman: Add Service"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ssjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"gr",
+				"Grunt"
+			],
+			[
+				"gru",
+				"Grunt"
+			],
+			[
+				"wa",
+				"Word Wrap: Toggle"
+			],
+			[
+				"g",
+				"Grunt"
+			],
+			[
+				"grunt ",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"w",
+				"Web Inspector"
+			],
+			[
+				"web",
+				"Web Inspector"
+			],
+			[
+				"",
+				"Web Inspector"
+			],
+			[
+				"gruntk",
+				"Grunt: Kill Running Tasks"
+			],
+			[
+				"add",
+				"Yeoman: Add Directive"
+			],
+			[
+				"addd",
+				"Yeoman: Add Directive"
+			],
+			[
+				"yeo",
+				"SublimeYeoman: Create project"
+			],
+			[
+				"ye",
+				"SublimeYeoman: Create project"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"we",
+				"Web Inspector"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"pshc",
+				"Git: Push Current Branch"
+			],
+			[
+				"gitre",
+				"Git: Remote"
+			],
+			[
+				"git add",
+				"Git: Add Remote"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"packg",
+				"Package Control: Install Package"
+			],
+			[
+				"ad",
+				"Yeoman: Add Service"
+			],
+			[
+				"dire",
+				"Yeoman: Add Directive"
+			],
+			[
+				"new fil",
+				"File: New View into File"
+			],
+			[
+				"add vie",
+				"Yeoman: Add View"
+			],
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livere",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"jqu",
+				"Yeoman: Add jQuery Plugin"
+			],
+			[
+				"jq",
+				"Yeoman: Add jQuery Plugin"
+			],
+			[
+				"yeodi",
+				"Yeoman: Add Directive"
+			],
+			[
+				"yect",
+				"Yeoman: Add Controller"
+			],
+			[
+				"ctrol",
+				"Yeoman: Add Controller"
+			],
+			[
+				"YE",
+				"SublimeYeoman: Create project"
+			],
+			[
+				"BROW",
+				"Preferences: Browse Packages"
+			],
+			[
+				"yo",
+				"Yeoman: Add Directive"
+			],
+			[
+				"liver",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"lint",
+				"Tag: Lint Selection or Document"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":s",
+				":w - Save"
+			],
+			[
+				"inpa",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"P",
+				"Package Control: Disable Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"new ",
+				"File: New View into File"
+			],
+			[
+				"bo",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packge",
+				"Package Control: Remove Package"
+			],
+			[
+				"bow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"select al",
+				"Bookmarks: Select All"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 268.0,
+		"history":
+		[
+			":!start .",
+			":!ping",
+			"grunt server",
+			"dir(tempfile.NamedTemporaryFile(mode='w+b', prefix = 'tsc_', suffix = '.ts', delete = False).file)",
+			"tempfile.NamedTemporaryFile(mode='w+b', prefix = 'tsc_', suffix = '.ts', delete = False).file",
+			"dir(tempfile.NamedTemporaryFile(mode='w+b', prefix = 'tsc_', suffix = '.ts', delete = False))",
+			"vars(tempfile.NamedTemporaryFile(mode='w+b', prefix = 'tsc_', suffix = '.ts', delete = False))",
+			"tempfile.NamedTemporaryFile(mode='w+b', prefix = 'tsc_', suffix = '.ts', delete = False).open()",
+			"tempfile.NamedTemporaryFile(mode='w+b', prefix = 'tsc_', suffix = '.ts', delete = False)",
+			"import tempfile",
+			"tempfile.NamedTemporaryFile(prefix = 'tsc_', suffix = '.ts', delete = False).write('asdads')",
+			"tempfile.NamedTemporaryFile(prefix = 'tsc_', suffix = '.ts', delete = False)",
+			"import tempfile",
+			"os.path",
+			"SilverCity",
+			"restart",
+			"__import__('SilverCity')",
+			"__import__(SilverCity)",
+			"os.getcwdu()",
+			"os.getcwd()",
+			"import os",
+			"os.getcwd()",
+			"enable_live_tag_linting_document_types	= [item.lower() for item in s.get('enable_live_tag_linting_document_types', '')]",
+			"Pref.enable_live_tag_linting_document_types	= [item.lower() for item in s.get('enable_live_tag_linting_document_types', '')]",
+			"[item.lower() for item in s.get('enable_live_tag_linting_document_types', '')]",
+			"s.get('enable_live_tag_linting_document_types', '')",
+			"s.get('enable_live_tag_linting', True)",
+			"s.",
+			"s = sublime.load_settings('Tag Package.sublime-settings')",
+			"sublime.load_settings('Tag Package.sublime-settings')",
+			"C:\\Users\\Michael\\AppData\\Roaming\\Sublime Text 3\\Packages\\ASCII Decorator\\ASCII-Decorator.py",
+			"print 'sad'",
+			"print 'indentsad'",
+			"print 'indent'",
+			"print \"indent\"",
+			"print 'indent'",
+			"print indent"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/config.py",
+		"/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/httpd.password",
+		"/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/run.bat",
+		"/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/README",
+		"/C/Users/Michael/pip/pip.log",
+		"/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/server.tac",
+		"/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/auth.py",
+		"/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/db_helper.py",
+		"/C/my/Utils/subl.bat",
+		"/C/Users/Michael/Google Drive/Hackathon/app/index.html",
+		"/C/Users/Michael/Google Drive/Hackathon/app/scripts/fullscreensnippet.js",
+		"/C/Users/Michael/Google Drive/Hackathon/app/scripts/controllers/main.js",
+		"/C/Users/Michael/Google Drive/Hackathon/app/scripts/directives/map-navigator.js",
+		"/C/Users/Michael/Google Drive/Hackathon/app/styles/main.css",
+		"/C/Users/Michael/Google Drive/Hackathon/app/scripts/services/userIdleProvider.js",
+		"/C/Users/Michael/Google Drive/Hackathon/Gruntfile.js",
+		"/C/Users/Michael/Google Drive/Hackathon/TODO.md",
+		"/C/Users/Michael/Google Drive/Hackathon/node_modules/grunt-google-cdn/node_modules/bower/node_modules/request/tests/test-errors.js",
+		"/C/Users/Michael/Google Drive/Hackathon/app/sftp-config.json",
+		"/C/Users/Michael/Google Drive/Hackathon/app/scripts/app.js",
+		"/C/Users/Michael/Google Drive/Hackathon/Hakathon.sublime-workspace",
+		"/C/Users/Michael/Google Drive/Hackathon/app/bower_components/modernizr/feature-detects/audio-audiodata-api.js",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/Grunt/main.py",
+		"/C/Users/Michael/Google Drive/Hackathon/.sublime-grunt.cache",
+		"/C/Users/Michael/Desktop/Projects/Hackathon/Gruntfile.js",
+		"/C/Users/Michael/Desktop/Projects/Hackathon/node_modules/grunt-karma/test/grunt-karma-test.js",
+		"/C/Users/Michael/Desktop/Projects/Hackathon/node_modules/grunt-contrib-connect/tasks/certs/server.crt",
+		"/C/Users/Michael/Desktop/Projects/Hackathon/app/fonts/glyphicons-halflings-regular.svg",
+		"/C/Users/Michael/Google Drive/Startup Baby Steps/StartupSteps.htm",
+		"/C/wamp/scripts/testPort.php",
+		"/C/Users/Michael/Google Drive/Startup Baby Steps/Coding/Step 2/TroubleWizard/app/views/main.html",
+		"/C/Users/Michael/Google Drive/Startup Baby Steps/Coding/Step 1/TroubleWizard/app/index.html",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/SublimeYeoman/Templates/AngularApp/Gruntfile.js",
+		"/C/Users/Michael/My Documents/TroubleWizard/app/index.html",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/Users/Michael/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/0SE0FLHT/list2.json",
+		"/C/Users/Michael/Desktop/basket_printout.html",
+		"/C/Users/Michael/Downloads/ExtendedImmediateWindow/ExtendedImmediateWindow/ExtendedImmediateWindow.csproj",
+		"/C/Users/Michael/Downloads/ChanceEncoded2.csv.arff",
+		"/C/Users/Michael/Downloads/ChanceEncoded.csv.arff",
+		"/C/Users/Michael/Downloads/Chance4.csv.arff",
+		"/C/Users/Michael/wekafiles/packages/timeseriesForecasting/sample-data/appleStocks2011.arff",
+		"/C/Users/Michael/Desktop/Projects/Weka/ChanceIndexedFormatted bk.arff",
+		"/C/Users/Michael/wekafiles/packages/timeseriesForecasting/sample-data/airline.arff",
+		"/C/Users/Michael/wekafiles/packages/timeseriesForecasting/sample-data/wine.arff",
+		"/C/Users/Michael/Downloads/Chance (3).csv",
+		"/C/Users/Michael/Desktop/Projects/Weka/ChanceIndexedFormatted.arff",
+		"/C/Users/Michael/Desktop/Projects/Weka/Chance no start.csv",
+		"/C/Users/Michael/Desktop/Projects/Weka/ChanceIndexedFormatted2.csv",
+		"/C/Users/Michael/AppData/Roaming/npm/node_modules/generator-phonegap/node_modules/extended-fs/src/fs.js",
+		"/C/drassy/node_modules/generator-phonegap/app/index.js",
+		"/C/drassy/phonegap/www/index.html",
+		"/C/drassy/platforms/android/src/com/drassy/ios/Drassy.java",
+		"/C/drassy/www/config.xml",
+		"/C/Users/Michael/AppData/Roaming/npm/phonegap.cmd",
+		"/C/drassy/platforms/android/assets/app/index.html",
+		"/C/drassy/platforms/android/assets/www/js/index.js",
+		"/C/drassy/platforms/android/assets/www/spec/helper.js",
+		"/C/drassy/platforms/android/assets/www/config.xml",
+		"/C/drassy/platforms/android/assets/www/spec.html",
+		"/C/drassy/platforms/android/assets/www/css/index.css",
+		"/C/drassy/www/index.html",
+		"/C/Users/Michael/Downloads/LightTableWin/LightTable/package.json",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/SublimeWebInspector-master/swi.sublime-settings",
+		"/C/Users/Michael/Google Drive/Drassie/Gruntfile.js",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx/ex_commands.py",
+		"/C/Users/Michael/Google Drive/Drassie/app/scripts/directives/image-editor.js",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx/ex_search_cmd.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx/plat/windows.py",
+		"/C/Users/Michael/Downloads/AzureMessenger.azurewebsites.net.PublishSettings",
+		"/C/Users/Michael/Downloads/LastMessenger.azurewebsites.net.PublishSettings",
+		"/C/Users/Michael/Downloads/Messenger2.azurewebsites.net.PublishSettings",
+		"/C/Users/Michael/Documents/Web.config",
+		"/C/Users/Michael/Downloads/LastMessenger.azurewebsites.net (1).PublishSettings",
+		"/C/Users/Michael/Downloads/Messenger/Web.config",
+		"/C/Users/Michael/Downloads/MyMessenger/MyMessenger/MyMessenger/csx/Debug/ServiceDefinition.csdef",
+		"/C/Users/Michael/Google Drive/Drassie/.git/config",
+		"/C/Users/Michael/.ssh/id_rsa.pub",
+		"/C/Users/Michael/Google Drive/Drassie/app/scripts/controllers/desktop.ini",
+		"/C/Drassie/app/views/upload.html",
+		"/C/Drassie/app/index.html",
+		"/C/Drassie/app/scripts/models/filter-types.js",
+		"/C/Drassie/app/bower_components/jquery-mobile/jquery-mobile.js",
+		"/C/Drassie/app/scripts/controllers/upload.js",
+		"/C/Drassie/app/bower_components/jquery-mobile/index.php",
+		"/C/Drassie/app/scripts/directives/image-editor.js",
+		"/C/Drassie/bower.json",
+		"/C/Drassie/app/bower_components/angular/angular.js",
+		"/C/Drassie/app/scripts/directives/file-model.js",
+		"/C/Drassie/app/scripts/jquery-plugins/image-filter.js",
+		"/C/Drassie/app/scripts/app.js",
+		"/C/Drassie/app/scripts/directives/file-change.js",
+		"/D/New folder/directives/fileModel.js",
+		"/C/Drassie/Drassie.sublime-project",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/vintage_ex.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/plat/windows.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/ex_commands.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/vex/shell.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/vex/parsers/g_cmd.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/vex/parsers/s_cmd.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/vex/parsers/cmd_line.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/ex_search_cmd.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/VintageEx-master/Support/VintageEx Cmdline.tmLanguage",
+		"/C/Drassie/Gruntfile.js",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/SublimeYeoman/Templates/AngularApp/.editorconfig",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/SublimeYeoman/setpath.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/SublimeYeoman/yeoman.sublime-build",
+		"/C/Drassie/Gruntfile - Copy.js",
+		"/C/Drassie/app/scripts/directives/fileModel.js",
+		"/C/Drassie/src/.jshintrc",
+		"/C/Fashion/Scripts/Controllers/UploadPageCtrl.js",
+		"/C/Fashion/Scripts/jQueryPlugins/ImageFilter.js",
+		"/C/Drassie/src/image-filter.js",
+		"/C/Drassie/test/image-filter.html",
+		"/C/Drassie/.bowerrc",
+		"/C/Drassie/bower - Copy.json",
+		"/C/Drassie/ - Copy.jshintrc",
+		"/C/Drassie/.jshintrc",
+		"/C/Drassie/ - Copy.gitignore",
+		"/C/Drassie/.gitignore",
+		"/C/Drassie/.editorconfig",
+		"/C/Drassie/ - Copy.editorconfig",
+		"/C/Drassie/ - Copy.bowerrc",
+		"/C/Drassie/.travis - Copy.yml",
+		"/C/Drassie/.travis.yml",
+		"/C/Windows/lר",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/YeomanAngular/YeomanAngular.py",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 3/Packages/YeomanAngular/Default.sublime-commands"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Michael\\Desktop\\Projects\\Google update\\OmacaServer\\omaha-server-master\\omaha-server-master",
+			"<open files>,C:\\Users\\Michael\\Google Drive\\Hackathon\\app",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"FilePasswordDB",
+			"House of Life Update",
+			"httpsService",
+			"internet",
+			"ChainedOpenSSLContextFactory",
+			"navigate-card-panel",
+			".navigation-map {\nheight: 89%;",
+			"directions-panel",
+			"myMap",
+			"$http",
+			"method",
+			"$HttpProvider",
+			"httpP",
+			";",
+			"folder\"",
+			"onGoogleReady",
+			"div",
+			".arrival-list-panel.not-extanded",
+			"span",
+			"recharge-options-list",
+			"25px",
+			"arriv",
+			"סופרבוס",
+			"400px",
+			"font",
+			"google",
+			"http",
+			"googl",
+			".recharge-card-panel",
+			"em",
+			"menu",
+			"get",
+			"lets get",
+			"coffee",
+			"package",
+			"la",
+			"K",
+			"Q",
+			"J",
+			"A",
+			"J",
+			"K",
+			"A",
+			"Q",
+			"Q,A",
+			"base,calm",
+			"A",
+			"base,calm",
+			"run_and_wait",
+			"pause",
+			"cmd.exe",
+			"cmd",
+			"web",
+			"'</",
+			"            '</",
+			"filterToNativeFilter",
+			"ngrepeatd",
+			"ngrepeat",
+			"ctrl",
+			"NgModelController",
+			"ngModelD",
+			"shell",
+			":9000",
+			"shell",
+			"get_startup_info",
+			"cmd.exe",
+			"cmd",
+			"shell",
+			"run_and_wait",
+			"ExShell",
+			"cmd.exe",
+			"ex_command",
+			"open_shell",
+			"'!",
+			"cmd",
+			"http://",
+			"cmd",
+			"windows",
+			"build",
+			"<script>\n       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n       ga('create', 'UA-XXXXX-X');\n       ga('send', 'pageview');\n    </script>",
+			"ExecuteGenerator",
+			"]\n",
+			"[]",
+			"UploadPageCtrl",
+			"Fashion",
+			"data-ng-app",
+			"onConfirm",
+			"imagesLoaded",
+			"makeExampleItem",
+			"items",
+			"click",
+			"e",
+			"};\n",
+			"style",
+			"functionParametersStartIndex",
+			"elem",
+			"3342",
+			"3242",
+			"print",
+			"_make_text_safeish",
+			"source",
+			"\\\\",
+			"view",
+			"on_done",
+			"CommandThread",
+			"onDone",
+			"tempfile",
+			"NamedTemporaryFile",
+			"self.sourcefile.write(source)",
+			" self.sourcefile.write(source)",
+			"_make_text_safeish",
+			"except",
+			"print",
+			"print (",
+			"print(",
+			"print(.*)$",
+			"print.*$",
+			"print",
+			".\n",
+			"asddsa",
+			"print",
+			"from",
+			"SilverCity",
+			"from . ",
+			"import",
+			"from .",
+			"import",
+			"from"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"3",
+			"4",
+			"5",
+			"6",
+			"4",
+			"3",
+			"2",
+			"Q,A,Q,A",
+			"base,calm,Q,A",
+			"onConfirm",
+			"print(\\1)",
+			"print(%1)",
+			"print(.*)$"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "C:\\Users\\Michael\\Google Drive\\Hackathon"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3743,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										267,
+										287
+									],
+									[
+										442,
+										462
+									],
+									[
+										868,
+										888
+									],
+									[
+										1161,
+										1181
+									],
+									[
+										1457,
+										1477
+									],
+									[
+										1757,
+										1777
+									],
+									[
+										2105,
+										2125
+									],
+									[
+										2368,
+										2388
+									],
+									[
+										2487,
+										2507
+									],
+									[
+										2835,
+										2855
+									],
+									[
+										2953,
+										2973
+									],
+									[
+										3333,
+										3353
+									],
+									[
+										3630,
+										3650
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								2106,
+								2106
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"incomplete_sync": null,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/run.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"synced": false,
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/cert/README",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Michael/Desktop/Projects/Google update/OmacaServer/omaha-server-master/omaha-server-master/db_helper.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 128.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.test_runner":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"u",
+				"app\\views\\upload.html"
+			],
+			[
+				"app.html",
+				"app\\index.html"
+			],
+			[
+				".html",
+				"app\\index.html"
+			],
+			[
+				"upload",
+				"app\\scripts\\controllers\\upload.js"
+			],
+			[
+				"angu",
+				"app\\bower_components\\angular\\angular.js"
+			],
+			[
+				"app",
+				"app\\scripts\\app.js"
+			],
+			[
+				"inde",
+				"app\\index.html"
+			],
+			[
+				"filemo",
+				"app\\scripts\\directives\\fileModel.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

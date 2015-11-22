@@ -1,0 +1,13 @@
+'use strict'
+
+angular.module('angularApp')
+  .directive('phase', function() {
+    return {
+    		link: (scope, element, attrs){
+    			scope.$watch(attrs.phase, function(newValue) {
+    					
+    				});
+    		}
+    	}
+  	}
+  )

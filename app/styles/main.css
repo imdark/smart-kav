@@ -1,0 +1,250 @@
+@import url(//fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+  /* Move down content because we have a fixed navbar that is 50px tall */
+  body {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background:url('../images/1.ico') no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    font-family: 'Open Sans Hebrew', serif !important;
+    overflow-y: hidden;
+    max-height:1260px;
+  }
+
+li {
+  font-size: 19.5pt;
+  padding-right: 15px;
+  border-bottom: 2px solid #9DDBF1;
+  list-style-type: none;
+  position: relative;
+  color: #9DDBF1;
+}
+
+li:before {
+  
+  position:absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  
+  background: #f2f2f2;
+  border-right: 1px solid #ddd;
+
+  margin: 0;
+  padding:10px;
+  
+  font-size: 11px;
+  height: 100%;
+  color:#999;
+  text-align: center;
+}
+
+.map-canvas {
+    height: 150px; 
+    width: 100%;
+}
+
+li:nth-child(odd) {
+    background-color: #ECECEC;
+}
+
+li:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+.container {
+  border-radius: 30px 30px 0px 0px;
+  overflow-y: hidden;
+}
+.map-holder.expand {
+  height: 150px;
+}
+
+.map-holder {
+  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  width: 100%;
+}
+
+/* Set widths on the navbar form inputs since otherwise they're 100% wide */
+.navbar-form input[type="text"],
+.navbar-form input[type="password"] {
+  width: 180px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.minute {
+  font-size: 20pt;
+  padding-left: 7px;
+}
+.time-postfix {
+  float: left;
+  vertical-align:text-bottom;
+}
+
+.arrival-time {
+  float: left;
+  color: white;
+  background: #44C4F3;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17pt;
+  width: 126px;
+  margin-left: 40px;
+}
+
+.header-container {
+  background-color: #F9F9F9;
+  border-radius: 30px 30px 0px 0px;
+  height: 41px;
+}
+
+.arrival-time-header {
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+
+.footer-container {
+  background-color: #ECECEC;
+  border-radius: 0px 0px 30px 30px
+}
+
+.bus-name {
+  padding-top: 15px;
+  padding-bottom: :15px;
+}
+
+.arrival-time-list {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px; 
+  height: 93%;
+  overflow-x: hidden; 
+  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+}
+
+.arrival-time-list.not-extanded {
+  height: 90%;
+}
+
+.arrival-time-list.hidden {
+  height: 0%;
+}
+
+.arrival-list-panel {
+  overflow-y: hidden;
+  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+}
+.arrival-list-panel.fully-extanded {
+  height: 90%;
+}
+.arrival-list-panel.not-extanded {
+  height: 58%;
+}
+.recharge-card-panel {
+  overflow: hidden;
+  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  height: 32%;
+}
+
+.recharge-card-panel.not-extanded {
+  height: 0%;
+}
+.recharge-options-panel {
+  background: #F2F2F2;
+  padding: 15px;
+}
+.recharge-options-list {
+  background-color: #ECECEC;
+  margin-bottom: 0px; 
+  padding: 5px;
+  width: 74%;
+  display: inline-table;
+}
+.recharge-options-button {
+  background: #44C4F3;
+  border-radius: 8px;
+  padding: 4px;
+  margin: 3.5px;
+  color:white;
+}
+
+.button {
+  height: 150px;
+  width: 200px;
+
+}
+
+.home.button {
+}
+
+.ribbon {
+  color: white;
+  background: #44C4F3;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17pt;
+  width: 126px;
+  margin-left: 40px;
+}
+
+.ad-panel {
+  height: 0px;
+  background: url(../images/coffee-coupon.jpg) no-repeat center center;
+  background-size: cover;
+  position: fixed;
+  bottom: 140px;
+  width: 100%;
+  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+}
+.ad-panel.show {
+  height: 150px;
+  z-index: 9999;
+}
+
+.navigate-card-panel {
+  overflow: hidden;
+  height: 90%;
+  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+}
+
+.navigation-map {
+  height: 89%;
+}
+
+.directions-panel {
+  height: 100%;
+  float: right;
+  width: 390px;
+  overflow: auto;
+}
+.collapsed{
+  height: 0%;
+}
+.recharge-card.button {
+}
+
+.navigation.button {
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Let the jumbotron breathe */
+  .jumbotron {
+    margin-top: 20px;
+  }
+  /* Remove padding from wrapping element since we kick in the grid classes here */
+  .body-content {
+    padding: 0;
+  }
+}

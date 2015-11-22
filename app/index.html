@@ -1,0 +1,153 @@
+<!doctype html lang="he">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:css styles/vendor/bootstrap.css -->
+  <link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.css">
+  <!-- endbuild -->
+</head>
+<head>
+<body dir="rtl" id="angularApp" data-ng-controller="MainCtrl" ng-init="phase = 1">
+
+<div class="container" style="max-height: 1270px;">
+  <div class="arrival-list-panel" ng-class="{'fully-extanded': phase == 1, 'not-extanded': phase == 2, 'collapsed': phase == 3}">
+    <div >
+      <div class="header-container">
+        <h1 class="arrival-time-header">זמני אמת</h1>
+      </div>
+      
+      <ul class="arrival-time-list" ng-class="{'fully-extanded': phase == 1, 'not-extanded': phase == 2, 'collapsed': phase == 3}" >
+        <li ng-repeat="arrival in arrivals | orderBy:'timeTilArrival'" ng-init="arrival.selected = false" >
+          <div ng-click="expand(arrival)">
+            <span class="bus-name">{{arrival.busName}}</span>
+            <span class="arrival-time">
+              <span class="minute">{{ padLeft(arrival.timeTilArrival, 2, ' ') }}</span>
+              <span class="time-postfix">דקות</span>
+            </span>
+          </div>
+            <div data-collapse="!arrival.selected" class="map-holder" ng-class="{'collapse': !arrival.selected, 'expand': arrival.selected }" >
+            </div>
+        </li>
+      </ul>
+      <div style="height: 0px; overflow: hidden">
+        <div ui-map="myMap" ui-options="mapOptions" class="map-canvas" >
+      </div>
+      </div>
+    </div>
+    <footer class="footer-container">
+      <center>=</center>
+    </footer>
+  </div>
+  <div class="recharge-card-panel" ng-class="{'fully-extanded': phase == 2, 'not-extanded': phase == 1, 'collapsed': phase == 3}">
+    <div >
+      <div class="header-container">
+        <h1 class="arrival-time-header">טעינת רב קו</h1>
+      </div>
+      <div class="recharge-options-panel">
+        <ul class="recharge-options-list" ng-class="{'fully-extanded': phase == 2, 'not-extanded': phase == 1, 'collapsed': phase == 3}" >
+          <li >כרטיס חופשי חודשי</li>
+          <li >כרטיסיות קוד נסיעה</li>
+          <li >סטודן</li>
+          <li ><center><span class="ribbon">שנתי</span><span class="ribbon">סימסטריאלי</span></center></li>
+          <li>כרטיס חופשי יומי</li>
+          <li>מילוי תקציב</li>
+          <li>אזרח ותיק</li>
+        </ul>
+        <div style="display: inline-table;height: 42%">
+          <div class="recharge-options-button">הצמד כרטיס רב קו</div>
+          <div class="recharge-options-button">סרוק קרטיס אשראי</div>
+          <div style="height: 100%"></div>
+          <div class="recharge-options-button">שלם</div>
+        </div>
+      </div>
+    <footer class="footer-container">
+    <center>=</center>
+    </footer>
+    </div>
+  </div>
+  <div class="navigate-card-panel collapsed">
+    <div >
+      <div class="header-container">
+        <h1 class="navigate-time-header">תכנון מסלול</h1>
+      </div>
+      <div class="navigate-options-panel">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="לאיפה אתה רוצה להגיע?" ng-model="targetAdress">
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="navigateTo(targetAdress)">חשב</button>
+          </span>
+        </div>
+        <div class="navigation-map" ui-map="navigationMap" ui-options="navigationMapOptions" ></div>
+        <div id="directions-panel" ></div>
+      </div>
+    <footer class="footer-container">
+    <center>=</center>
+    </footer>
+    </div>
+  </div>
+  <center>
+    <img class="home button" src="images/home.png" ng-click="phase = 1"/>
+    <img class="recharge-card button" src="images/rechargeCard.png" ng-click="phase = 2" />
+    <img class="navigation button " src="images/navigation.png" ng-click="phase = 3"/>
+  </center>
+</div>
+<div class="ad-panel" ng-class="{ 'show': showAd }"></div>
+<div class="modal-backdrop" ng-class="{'fade in': showAd, 'fade out': !showAd}" ng-if="showAd"></div>
+<!-- build:js scripts/async-local-storage.js -->
+<!-- <script src="scripts/async.localStorage.js"></script>
+<script src="scripts/async.localStorage.examples.js"></script> -->
+<!-- endbuild -->
+
+<!-- build:js scripts/fullscreensnippet.js -->
+<script src="scripts/fullscreensnippet.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/fastclick.js -->
+<script src="scripts/fastclick.js"></script>
+<script src="scripts/fastclick.example.js"></script>
+<!-- endbuild -->
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/jquery.js"></script>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/json3/lib/json3.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-ui-utils/ui-utils.js"></script>
+<script src="bower_components/angular-ui-map/ui-map.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<script src="scripts/directives/collapse.js"></script>
+<script src="scripts/services/userIdleProvider.js"></script>
+<!-- endbuild -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=onGoogleReady"></script>
+
+</body>
+</html>
